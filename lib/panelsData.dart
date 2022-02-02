@@ -63,16 +63,16 @@ List<List<List<TextEditingController>>> currentCustomControllers = [];
 
 // Links for getting the data from cloud server
 List links = [
-  'http://blynk-cloud.com/RWsJiUrEDEdxbA3GDfkiPeseQZdyTMnn/get/V',            
-  'http://blynk-cloud.com/bZTtn6slTnhdjlFMYA_u0udSX_z5ugaj/get/V',
-  'http://blynk-cloud.com/3z6J3qv5iD_EzuYvgUCmQ_nYfR2zSw1p/get/V'
+  'PanelOneLink',
+  'PanelTwoLink',
+  'PanelThreeLink'
 ];
 
 // Links for updating data in cloud server
 List updateLinks = [
-  'http://blynk-cloud.com/RWsJiUrEDEdxbA3GDfkiPeseQZdyTMnn/update/V47?value=',
-  'http://blynk-cloud.com/bZTtn6slTnhdjlFMYA_u0udSX_z5ugaj/update/V47?value=',
-  'http://blynk-cloud.com/3z6J3qv5iD_EzuYvgUCmQ_nYfR2zSw1p/update/V47?value='
+  'PanelOneUpdateLink',
+  'PanelTwoUpdateLink',
+  'PanelThreeUpdateLink'
 ];
 
 // Class for the newly fetched data from cloud server every minute
